@@ -295,7 +295,7 @@ def main():
     sfx = build_sfx()  # 각 사운드에 해당하는, Sound object 딕셔너리
     game = Tetris(sfx=sfx)
     gravity_timer = 0
-    base_gravity_interval = 200  # milliseconds per drop (normal)
+    base_gravity_interval = 500  # milliseconds per drop (normal)
 
     running = True
     paused = False
